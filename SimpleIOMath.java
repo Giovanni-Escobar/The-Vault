@@ -11,7 +11,6 @@ public class SimpleIOMath
     private String name;
     private int age;
     private int favNumber;
-    private int newAge;
 
 
 
@@ -49,7 +48,7 @@ public class SimpleIOMath
                 "Are the branches of the learning tree");
         System.out.println("Your name is: "+ name);
         System.out.println("Your age is: "+ age);
-        newAge = age+1;
+        int newAge = age+1;
         System.out.println("At your next birthday, you will turn "+ newAge);
         System.out.println("The first prime factor of "+age+" is: "+ smallestPrimeFactor(age));
         System.out.println("Your favorite number is: "+ favNumber);
