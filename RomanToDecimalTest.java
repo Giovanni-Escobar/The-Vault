@@ -8,6 +8,9 @@ import static org.junit.Assert.*;
  */
 public class RomanToDecimalTest {
     @Test
+    /**
+    * This is where I put in statements and what I believe their outcomes would be
+    */
     public void romanToDecimalTest(){
         assertEquals(RomanToDecimal.romanToDecimal("XIV"), 14);
         assertEquals(RomanToDecimal.romanToDecimal("LXXVIII"),78 );
